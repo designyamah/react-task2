@@ -30,8 +30,10 @@ const LoginPage: React.FC = () => {
               type="text"
               id="username"
               value={username}
+              placeholder="Enter your username"
               onChange={(e) => setUsername(e.target.value)}
               required
+              autoFocus
             />
           </div>
 

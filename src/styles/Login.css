@@ -3,21 +3,19 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #ecf0f1;
 }
 
 .login-card {
   background-color: white;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(123, 69, 160, 0.138);
   width: 100%;
   max-width: 400px;
 }
 
 .login-card h2 {
   text-align: center;
-  color: #2c3e50;
   margin-bottom: 1.5rem;
 }
 
@@ -29,22 +27,29 @@
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: #34495e;
 }
 
 .form-group input,
 .form-group select {
   width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  padding: 1.25rem;
   font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #333;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border: 1px solid #5b2083;
+  box-shadow: 0 4px 0px rgba(123, 69, 160, 0.512);
+
+  outline: none;
 }
 
 .login-button {
   width: 100%;
-  padding: 0.75rem;
-  background-color: #3498db;
+  padding: 1.25rem;
+  background-color: #5b2083;
   color: white;
   border: none;
   border-radius: 4px;
@@ -55,5 +60,5 @@
 }
 
 .login-button:hover {
-  background-color: #2980b9;
+  background-color: #7b45a0;
 }
