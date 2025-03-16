@@ -1,0 +1,139 @@
+.dashboard-container {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.dashboard-container h1 {
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.dashboard-component {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.dashboard-component h2 {
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  border-bottom: 1px solid #ecf0f1;
+  padding-bottom: 0.75rem;
+}
+
+/* Admin Dashboard Styles */
+.admin-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.control-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.control-card h3 {
+  margin-bottom: 0.75rem;
+  color: #34495e;
+}
+
+.control-card p {
+  margin-bottom: 1rem;
+  color: #7f8c8d;
+}
+
+.dashboard-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.dashboard-button:hover {
+  background-color: #2980b9;
+}
+
+/* Editor Dashboard Styles */
+.editor-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Viewer Dashboard Styles */
+.viewer-controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.report-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.report-card h3 {
+  margin-bottom: 0.75rem;
+  color: #34495e;
+}
+
+.report-card p {
+  margin-bottom: 1rem;
+  color: #7f8c8d;
+}
+
+.report-preview {
+  margin-top: 1rem;
+}
+
+.chart-placeholder {
+  height: 150px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.report-data {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.status-list {
+  list-style: none;
+}
+
+.status-list li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.status-dot.complete {
+  background-color: #2ecc71;
+}
+
+.status-dot.in-progress {
+  background-color: #f39c12;
+}
+
+.status-dot.planned {
+  background-color: #95a5a6;
+}
