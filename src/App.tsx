@@ -19,7 +19,7 @@ const App: React.FC = () => {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
 
           {/* Protected routes that require authentication */}
           <Route element={<ProtectedRoute />}>
