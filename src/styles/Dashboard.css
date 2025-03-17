@@ -47,7 +47,7 @@
 }
 
 .dashboard-button {
-  background-color: #3498db;
+  background-color: #5b2083;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -57,7 +57,7 @@
 }
 
 .dashboard-button:hover {
-  background-color: #2980b9;
+  background-color: #7b45a0;
 }
 
 /* Editor Dashboard Styles */
@@ -70,7 +70,7 @@
 /* Viewer Dashboard Styles */
 .viewer-controls {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
@@ -136,4 +136,12 @@
 
 .status-dot.planned {
   background-color: #95a5a6;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .editor-controls,
+  .admin-controls {
+    grid-template-columns: 1fr;
+  }
 }

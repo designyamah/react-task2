@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate, NavLink } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import "../styles/Navbar.css";
 
@@ -18,16 +18,16 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="navbar-links">
-        <Link to="/dashboard" className="nav-link">
+        <NavLink to="/dashboard" className="nav-link">
           Dashboard
-        </Link>
-        <Link to="/profile" className="nav-link">
+        </NavLink>
+        <NavLink to="/profile" className="nav-link">
           Profile
-        </Link>
+        </NavLink>
         {isAdmin && (
-          <Link to="/settings" className="nav-link">
+          <NavLink to="/settings" className="nav-link">
             Settings
-          </Link>
+          </NavLink>
         )}
       </div>
 

@@ -25,7 +25,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: #3498db;
+  background-color: #5b2083;
   color: white;
   display: flex;
   justify-content: center;
@@ -93,21 +93,21 @@
 }
 
 .profile-button.edit {
-  background-color: #3498db;
+  background-color: #5b2083;
   color: white;
 }
 
 .profile-button.edit:hover {
-  background-color: #2980b9;
+  background-color: #7b45a0;
 }
 
 .profile-button.save {
-  background-color: #2ecc71;
+  background-color: #5b2083;
   color: white;
 }
 
 .profile-button.save:hover {
-  background-color: #27ae60;
+  background-color: #7b45a0;
 }
 
 .profile-button.cancel {
