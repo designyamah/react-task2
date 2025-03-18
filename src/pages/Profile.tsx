@@ -7,7 +7,7 @@ const Profile: React.FC = () => {
   const { user } = useAuth();
   const [isEditing, setIsEditing] = useState(false);
   const [displayName, setDisplayName] = useState(user?.username || "");
-  const [bio, setBio] = useState("This is a default user bio.");
+  const [bio, setBio] = useState("user bio.");
 
   const handleSave = () => {
     setIsEditing(false);
