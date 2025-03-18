@@ -10,7 +10,6 @@ const Profile: React.FC = () => {
   const [bio, setBio] = useState("This is a default user bio.");
 
   const handleSave = () => {
-    // In a real app, you would update the user profile here
     setIsEditing(false);
   };
 
